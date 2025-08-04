@@ -1,13 +1,14 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "9ab1b4aff5c8294d97c423ce708c2953"
-name = "startiv-app"
+name = "Startiv App"
 handle = "startiv-app"
-application_url = "https://example.com/"
+application_url = "https://workers-values-glossary-editing.trycloudflare.com"
 embedded = true
 
 [build]
 include_config_on_deploy = true
+automatically_update_urls_on_dev = true
 
 [webhooks]
 api_version = "2025-07"
@@ -25,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = ["https://workers-values-glossary-editing.trycloudflare.com/auth/callback", "https://workers-values-glossary-editing.trycloudflare.com/auth/shopify/callback", "https://workers-values-glossary-editing.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
