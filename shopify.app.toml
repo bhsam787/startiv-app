@@ -3,7 +3,7 @@
 client_id = "9ab1b4aff5c8294d97c423ce708c2953"
 name = "Startiv App"
 handle = "startiv-app"
-application_url = "https://bureau-computed-harbor-helping.trycloudflare.com"
+application_url = "https://winning-limit-tmp-mauritius.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://bureau-computed-harbor-helping.trycloudflare.com/auth/callback", "https://bureau-computed-harbor-helping.trycloudflare.com/auth/shopify/callback", "https://bureau-computed-harbor-helping.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://winning-limit-tmp-mauritius.trycloudflare.com/auth/callback", "https://winning-limit-tmp-mauritius.trycloudflare.com/auth/shopify/callback", "https://winning-limit-tmp-mauritius.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
