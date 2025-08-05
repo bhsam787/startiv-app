@@ -38,3 +38,5 @@ From there, go to the **Products** section to see the functionality in action.
 2. Install dependencies:
    ```bash
    npm install
+3. ```bash
+    npm run dev
